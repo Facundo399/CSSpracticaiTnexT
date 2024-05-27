@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{  margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+:root{
+    --colorTitulos:#8c2574;
+    --colortextos:#777777;
+    --colorbotones:#8c2574;
+    --colorfondo:#a381f2;
+    --paddingsecciones:60px 0;
+    --marginelementos:100px;
+}
+body{ font-family: "Nunito", sans-serif;
+    background-color: #777777;
+}
+.menu-navegacion{
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+.logo{
+    height: 80px;
+}
+.logo img{
+    display: block;
+    height: 100%;
+}
+.enlaces li{
+    list-style: none;
+    display: inline-block;
+}
+.enlaces a{
+    text-decoration: none;
+    color:black;
+    padding-left: 40px;
+}
+.hero{
+    height: 300px;
+    background-image:url("assets/img/fondo2.jpg") ;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+.contenedor-textos{
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hero h1{font-size: 36px;
+font-weight: 700;
+margin-bottom: 100px;
+color:white
+}
+.beneficios{
+    padding-top: var(--marginelementos);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.beneficio{
+    font-size: 20px;
+    width: 10em;
+    height: 10em;
+    background-size: cover;
+    background-position: center ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.titulo-seccion{
+    text-align: center;
+    font-size: 35px;
+    color: var(--colorTitulos);
+}
+.copy{
+    text-align: center;
+    color: var(--colortextos);
+    margin: 30px 0;
+
+}
+
+
+footer .titulo-seccion{
+    color: var(--colorTitulos)
+}
+footer .copy{
+    color: black;
+}
+.redes-sociales{
+    display: flex;
+    justify-content: center;
+
+}
+.redes-sociales img{
+   
+    padding: 0 60px 0 30px;
+}
